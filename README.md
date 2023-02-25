@@ -30,5 +30,11 @@ referred research paper)
 aid the training process(as discussed in the referred research paper)
 ● Cross Entropy Loss has been chosen as the appropriate loss function
 
+# Results
 
+This task was completed with the following results:
+**Training accuracy = 93.59% Validation accuracy = 87.88% Validation loss = 0.5214**
+These results show that the model has been trained effectively and a validation accuracy almost reaching 90% also shows that there has been no overfitting of the data.
+The training was tried with several epochs ranging from 5-20 and the best results could be seen when we chose the epochs as 10. Finally, the model and all the trained parameters have been saved in the file ‘model_vgg16.pt’ and shared with you.
+The saved model has been used to run predictions on the test dataset and the final predicted values on the testing dataset are available in the jupyter notebook.
 
